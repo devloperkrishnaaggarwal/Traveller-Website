@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traveller - Travel Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      .comic-font {
+        font-family: "comic sans Ms";
+      }
+    </style>
+    
+  </head>
+  <body>
+    <header class="bg-white shadow-sm shadow-gray-300 md:shadow-md  flex flex-wrap sticky md:sticky md:h-12 ">
+      <div class=" text-lg md:text-2xl md:my-auto">
+        <a href="#" class="comic-font italic text-amber-500 font-bold "
+          >Traveller</a
+        ><div class="absolute top-0.5 right-2 md:hidden">
+        <i class="fa-solid fa-bars" id="hamburgerMenuIcon"></i>
+    </div>      </div>
+      <div class="hidden md:flex" id="hamburgerMenu">
+        <ul class="md:flex md:flex-row md:my-auto md:content-end md:mx-auto" id="navLinks" >
+            <li><a class="hover:scale-110 hover:underline hover:duration-150 hover:ease-in-out m-">Home</a></li>
+            <li><a class="hover:scale-110 hover:underline hover:duration-150 hover:ease-in-out m-2">Places</a></li>
+          <li><a class="hover:scale-110 hover:underline hover:duration-150 hover:ease-in-out m-2">Your purchases</a></li>
+          <li><a class="hover:scale-110 hover:underline hover:duration-150 hover:ease-in-out m-2">Favourites</a></li>
+        </ul>
+    </div>
+    </header>
+    <main>
+      <div class="bg-amber-500 text-white font-semibold m-3 rounded-lg p-2">
+        <div class="text-3xl px-3 pt-2 text-center">Explore New Places</div>
+
+        <div class="text-base text-center">Reach your dream destinations</div>
+        <form action="" class="text-black grid grid-cols-1 m-4 bg-amber-400 p-2 rounded-sm" id="startForm">
+            <label for="placesList" >Where do you wanna visit</label>
+            <select name="" id="placesList">
+                
+            </select>
+            
+            <label for="checkInDate">Check In</label>
+            <input type="date" name="" id="checkInDate"></input>
+            <label for="checkOutDate">Check Out</label>
+            <input type="date" name="" id="checkOutDate"></input>
+            <label for="numberOfRooms">Number of Rooms</label>
+            <input type="number" name="" id="numberOfRooms"></input>
+            
+            <label for="contactEmail">Contact Email</label>
+            <input type="email" name="" id="contactEmail"></input>
+
+         
+
+
+
+
+        </form>
+      </div>
+
+
+<div class="w-"></div>
+    </main>
+    <footer></footer>
+<script src="./app.js"></script>  
+</body>
+</html>
