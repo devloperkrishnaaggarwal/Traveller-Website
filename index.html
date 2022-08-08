@@ -17,22 +17,22 @@
   <body>
     <header class="bg-white shadow-sm shadow-gray-300 md:shadow-md  flex flex-wrap sticky md:sticky md:h-12 ">
       <div class=" text-lg md:text-2xl md:my-auto">
-        <a href="#" class="comic-font italic text-amber-500 font-bold "
+        <a href="#" class="comic-font italic text-amber-500 font-bold cursor-pointer"
           >Traveller</a
         ><div class="absolute top-0.5 right-2 md:hidden">
         <i class="fa-solid fa-bars" id="hamburgerMenuIcon"></i>
     </div>      </div>
-      <div class="hidden md:flex" id="hamburgerMenu">
-        <ul class="md:flex md:flex-row md:my-auto md:content-end md:mx-auto" id="navLinks" >
-            <li><a class="hover:scale-110 hover:underline hover:duration-150 hover:ease-in-out m-">Home</a></li>
-            <li><a class="hover:scale-110 hover:underline hover:duration-150 hover:ease-in-out m-2">Places</a></li>
-          <li><a class="hover:scale-110 hover:underline hover:duration-150 hover:ease-in-out m-2">Your purchases</a></li>
-          <li><a class="hover:scale-110 hover:underline hover:duration-150 hover:ease-in-out m-2">Favourites</a></li>
+      <div class="hidden md:mx-auto  md:flex" id="hamburgerMenu">
+        <ul class="md:flex md:flex-row md:my-auto  md:mx-auto" id="navLinks" >
+            <li><a class="hover:scale-110 hover:underline hover:duration-150 hover:ease-in-out m-2 md:font-semibold cursor-pointer">Home</a></li>
+            <li><a class="hover:scale-110 hover:underline hover:duration-150 hover:ease-in-out m-2 md:font-semibold cursor-pointer">Places</a></liclass=>
+          <li><a class="hover:scale-110 hover:underline hover:duration-150 hover:ease-in-out m-2 md:font-semibold cursor-pointer">Your purchases</a></li>
+          <li><a class="hover:scale-110 hover:underline hover:duration-150 hover:ease-in-out m-2 md:font-semibold cursor-pointer">Favourites</a></li>
         </ul>
     </div>
     </header>
     <main>
-      <div class="bg-amber-500 text-white font-semibold m-3 rounded-lg p-2">
+      <div class="bg-amber-500 text-white font-semibold m-3 md:m-4 rounded-lg md:rounded-xl p-2 md:p-4">
         <div class="text-3xl px-3 pt-2 text-center">Explore New Places</div>
 
         <div class="text-base text-center">Reach your dream destinations</div>
@@ -47,10 +47,10 @@
             <label for="checkOutDate">Check Out</label>
             <input type="date" name="" id="checkOutDate"></input>
             <label for="numberOfRooms">Number of Rooms</label>
-            <input type="number" name="" id="numberOfRooms"></input>
+            <input type="number" name="" id="numberOfRooms" placeholder="1"></input>
             
             <label for="contactEmail">Contact Email</label>
-            <input type="email" name="" id="contactEmail"></input>
+            <input type="email" name="" id="contactEmail" placeholder="me@site.com"></input>
 
          
 
